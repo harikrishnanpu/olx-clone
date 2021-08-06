@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { useHistory } from 'react-router-dom';
 
  export default function SellButton() {
+   const history = useHistory();
     return(<svg
         width={104}
         height={48}
